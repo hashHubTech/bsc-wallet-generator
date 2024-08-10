@@ -1,0 +1,29 @@
+{
+  "name": "bsc-wallet-generator",
+  "version": "1.0.0",
+  "description": "A Node.js utility to generate Binance Smart Chain (BEP20) wallets using BIP39 and ethers.js.",
+  "main": "src/generateWallet.js",
+  "scripts": {
+    "start": "node src/generateWallet.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hashHubTech/bsc-wallet-generator.git"
+  },
+  "keywords": [
+    "blockchain",
+    "binance",
+    "wallet",
+    "bep20",
+    "cryptocurrency",
+    "bip39",
+    "ethers.js"
+  ],
+  "author": "hashHubTech",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "hdkey": "^1.1.1",
+    "ethers": "^6.0.0"
+  }
+}
